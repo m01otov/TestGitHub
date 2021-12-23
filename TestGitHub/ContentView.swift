@@ -12,8 +12,12 @@ struct ContentView: View {
         VStack {
         Text("Hello, world!")
             .padding()
-        Text("Hello, world!")
+
+            HStack {
+
+                Text("Hello, world!")
             .padding()
+            }
         }
     }
 }
